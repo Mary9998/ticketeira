@@ -1,3 +1,7 @@
+import showHome from '../../assets/show-pc-home.jpg';
+import './home.css'
+import '../../index.css'
+
 export function Home (){
     return(
         <>
@@ -6,6 +10,7 @@ export function Home (){
                 <div>
                 <h1>fefefe</h1>
                 <p>fjfjvjvrj  vir i bvibvhj i vijfvjriov</p>
+                <img src={showHome} alt="" id='show'/>
                 
                 <div>
                     <button>
@@ -23,9 +28,37 @@ export function Home (){
                 <h2>vendas</h2>
                 <div className="divCards">
                     <div className="card">
-                        <img src="" alt="" />
+                        <img src={showHome} alt="Imagem Principal " id='show' />
+                        <h3>social midia</h3>
+                        <p>hrhjigheruigfru eufgeuifgueigfeu euhfuiedshf ue uuesgfui guf ueg </p>
+                    </div>
+
+                    <div className="card">
+                        <img src={showHome} alt="Imagem Principal " id='show' />
+                        <h3>social midia</h3>
+                        <p>hrhjigheruigfru eufgeuifgueigfeu euhfuiedshf ue uuesgfui guf ueg </p>
+                    </div>
+
+                    <div className="card">
+                        <img src={showHome} alt="Imagem Principal " id='show' />
+                        <h3>social midia</h3>
+                        <p>hrhjigheruigfru eufgeuifgueigfeu euhfuiedshf ue uuesgfui guf ueg </p>
+                    </div>
+
+                    <div className="card">
+                        <img src={showHome} alt="Imagem Principal " id='show' />
+                        <h3>social midia</h3>
+                        <p>hrhjigheruigfru eufgeuifgueigfeu euhfuiedshf ue uuesgfui guf ueg </p>
+                    </div>
+
+                    <div className="card">
+                        <img src={showHome} alt="Imagem Principal " id='show' />
+                        <h3>social midia</h3>
+                        <p>hrhjigheruigfru eufgeuifgueigfeu euhfuiedshf ue uuesgfui guf ueg </p>
                     </div>
                 </div>
+
+                
             </section>
         </>
     );
