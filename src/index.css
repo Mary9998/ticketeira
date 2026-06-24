@@ -1,20 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root{
+  --bg: #0B0B0F;
+  --surface: #16151C;
+  --surface-2: #1E1D26;
+  --line: #2A2933;
+  --text: #F5F3EF;
+  --text-dim: #A7A5B3;
+
+  --violet: #8B2FF0;
+  --magenta: #FF3D7A;
+  --yellow: #FFD23F;
+  --grad: linear-gradient(120deg, var(--violet), var(--magenta));
+
+  --font-display: "Anton", sans-serif;
+  --font-body: "Sora", sans-serif;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+
+  --ease: cubic-bezier(.22,.68,0,1);
 }
 
-body {
-  font-family: var(--font-display);
-  background-color: #121212; /* Fundo escuro para a ticketeira */
-  color: #ffffff;
-}
-
-:root {
-  --font-display: 'Inter', sans-serif;
-  --grad: linear-gradient(90deg, #ff4757, #ff6b81);
-  --line: #444444;
-  --ease: 0.3s ease-in-out;
-}
+*{ box-sizing: border-box; margin:0; padding:0; }
+html{ scroll-behavior: smooth; }
 
 
